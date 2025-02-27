@@ -15,7 +15,7 @@ Git – Download
 Infura or Pinata API Key (for IPFS storage)
 ⚙️ Installation & Setup
 1⃣ Clone the Repository
-git clone https://github.com/Agam1708/VotingDapp.git
+git clone https://github.com/nagpalagam/VotingDapp.git
 cd VotingDapp
 2⃣ Install Dependencies
 npm install
