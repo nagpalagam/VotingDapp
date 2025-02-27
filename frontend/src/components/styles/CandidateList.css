@@ -1,0 +1,69 @@
+/* CandidateList styles */
+.candidate-list {
+    margin: 0 auto; /* Center the candidate list */
+    padding: 15px; /* Adjusted padding for better alignment */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+.candidate-list h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center; /* Center the heading */
+}
+
+.candidate-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.candidate-list li {
+    margin: 5px 0; /* Adjusted margin for better alignment */
+    text-align: center; /* Center text in list items */
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #e9f5ff;
+    transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.candidate-list li:hover {
+    background-color: #e0f7fa; /* Light blue background on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+/* Button styles */
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .candidate-list {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    .candidate-list h2 {
+        font-size: 20px; /* Smaller font size for headings */
+    }
+
+    .candidate-list li {
+        font-size: 14px; /* Smaller font size for list items */
+    }
+
+    button {
+        padding: 8px 12px; /* Adjust button padding for smaller screens */
+    }
+}

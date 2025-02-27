@@ -1,0 +1,162 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* App Container */
+.app {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  width: 90%;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Header */
+.header {
+  margin-bottom: 2rem;
+}
+
+.header h1 {
+  color: #2d3748;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* Connect Wallet Button */
+.connect-button {
+  background-color: #4299e1;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.connect-button:hover {
+  background-color: #3182ce;
+}
+
+.connect-button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Wallet Info */
+.wallet-info {
+  margin: 1rem 0;
+  font-size: 1.1rem;
+  color: #4a5568;
+}
+
+/* Error Messages */
+.error-message {
+  color: #e53e3e;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+/* Content Section */
+.content {
+  margin-top: 2rem;
+}
+
+/* Candidate List */
+.candidate-list {
+  margin-top: 1.5rem;
+}
+
+.candidate-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.candidate-list li {
+  background-color: #edf2f7;
+  padding: 1rem;
+  margin-bottom: 0.75rem;
+  border-radius: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.candidate-list li:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.candidate-list li span {
+  font-weight: bold;
+  color: #2d3748;
+}
+
+/* Voting Form */
+.voting-form {
+  margin-top: 2rem;
+}
+
+.voting-form h2 {
+  color: #2d3748;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.voting-form input[type="radio"] {
+  margin-right: 0.5rem;
+}
+
+.voting-form button {
+  background-color: #48bb78;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.voting-form button:hover {
+  background-color: #38a169;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .app {
+      width: 95%;
+      padding: 1.5rem;
+  }
+
+  .header h1 {
+      font-size: 1.75rem;
+  }
+
+  .connect-button {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+  }
+
+  .candidate-list li {
+      padding: 0.75rem;
+      font-size: 0.9rem;
+  }
+
+  .voting-form button {
+      padding: 0.5rem 1rem;
+      font-size: 0.9rem;
+  }
+}

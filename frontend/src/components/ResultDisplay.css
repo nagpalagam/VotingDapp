@@ -1,0 +1,51 @@
+/* ResultDisplay styles */
+.result-display {
+    margin: 0 auto; /* Center the result display */
+    padding: 15px; /* Adjusted padding for better alignment */
+
+
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s;
+}
+
+.result-display li:hover {
+    background-color: #e0f7fa; /* Light blue background on hover */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+.result-display h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.result-display ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.result-display li {
+    margin: 5px 0; /* Adjusted margin for better alignment */
+    text-align: center; /* Center text in list items */
+
+
+    padding: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+    background-color: #e9f5ff;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
